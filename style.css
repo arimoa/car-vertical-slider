@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+.left-section {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  transition: 0.5s;
+  top: -400vh;
+}
+.left-section > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.left-section p {
+  font-size: 1.2rem;
+}
+.right-section {
+  position: relative;
+  width: 70%;
+  height: 100%;
+  transition: 0.5s;
+  top: 0;
+}
+.right-section > div {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.buttons {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}
+.buttons button {
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color: #576574;
+  position: absolute;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #222f3e;
+}
+.down-arrow {
+  transform: translate(-100%, +100%);
+  border-radius: 5px 0 0 5px;
+}
+.up-arrow {
+  border-radius: 0 5px 5px 0;
+}
+.benz {
+  background-color: #4090a8;
+  color: wheat;
+}
+.bmw {
+  background-color: #262b85;
+  color: wheat;
+}
+.maserati {
+  background-color: #114338;
+  color: wheat;
+}
+.bentley {
+  background-color: #f1e9d6;
+}
+.genesis {
+  background-color: #6e0d02;
+  color: wheat;
+}
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
