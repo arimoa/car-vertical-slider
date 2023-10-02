@@ -1,2 +1,6 @@
 # car-vertical-slider
-By clicking on the arrows, the user can move the images with a suitable transition, and then the description of each photo is placed in front of the corresponding image.
+## About
+In this program, the page consists of two parts. One section for images and one section for descriptions. By clicking on the arrows, the user can move the images vertically, and then the description of each image is placed in front of it.
+***
+## Pictures
+
